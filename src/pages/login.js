@@ -32,7 +32,7 @@ const Login = () => {
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <button
               onClick={() =>
-                signIn(`http://localhost:3000/google`, {
+                signIn(`${process.env.NEXT_PUBLIC_NEXT_APP_URL}/google`, {
                   callbackUrl: process.env.NEXT_PUBLIC_NEXT_APP_URL,
                 })
               }
@@ -44,7 +44,7 @@ const Login = () => {
 
             <button
               onClick={() =>
-                signIn(`http://localhost:3000/github`, {
+                signIn(`${process.env.NEXT_PUBLIC_NEXT_APP_URL}/github`, {
                   callbackUrl: process.env.NEXT_PUBLIC_NEXT_APP_URL,
                 })
               }
