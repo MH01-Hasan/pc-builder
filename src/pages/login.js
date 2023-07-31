@@ -32,8 +32,8 @@ const Login = () => {
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <button
               onClick={() =>
-                signIn(`${process.env.NEXT_PUBLIC_NEXT_APP_URL}/google`, {
-                  callbackUrl: process.env.NEXT_PUBLIC_NEXT_APP_URL,
+                signIn(`http://localhost:3000/google`, {
+                  callbackUrl: "http://localhost:3000/google",
                 })
               }
               className="flex w-full justify-center items-center rounded-md bg-[#E23B30] p-3 my-2 text-sm  leading-6 text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 font-bold"
@@ -44,8 +44,8 @@ const Login = () => {
 
             <button
               onClick={() =>
-                signIn(`${process.env.NEXT_PUBLIC_NEXT_APP_URL}/github`, {
-                  callbackUrl: process.env.NEXT_PUBLIC_NEXT_APP_URL,
+                signIn(`http://localhost:3000/github`, {
+                  callbackUrl: "http://localhost:3000/github",
                 })
               }
               className="flex w-full justify-center items-center rounded-md bg-[#2A2E33] p-3 my-2 text-sm  leading-6 text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 font-bold"

@@ -38,9 +38,3 @@ Welcome to the PC Builder Website, a Next.js application designed to help users 
 Before running the PC Builder Website, make sure you have the following prerequisites installed on your system:
 
 1. Node.js: Make sure you have Node.js installed. You can download it from the official website: https://nodejs.org
-
-2. Git: Install Git on your system. You can find the installation instructions here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-Once you have Node.js and Git installed, follow these steps:
-
-:
